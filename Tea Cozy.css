@@ -1,0 +1,141 @@
+/*Universal Style*/
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Section */
+.logo-link-container {
+    display: inline-flex;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 10px;
+    height: 50px;
+}
+
+ul.breadcrumb li {
+    display: inline-flex;
+}
+
+ul.breadcrumb li a {
+    color: white;
+    text-decoration: underline;
+    margin-inline: 10px;
+}
+
+/* Central Section */
+.central-container {
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-image: url("img\ 6.jpg");
+    margin-left: 20px;
+}
+
+.central-part {
+    background-color: black;
+    color: white;
+    height: 150px;
+    width: 1200px;
+    flex-direction: column;
+    align-self: center;
+}
+
+h2, h4 {
+    text-align: center;
+}
+
+/* Tea Section */
+.tea-container {
+    width: 1000px !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tea-part {
+    color: white;
+    align-self: center;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+.gallery {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.images {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+/* Location Section */
+.location-container {
+    height: 500px;
+    width: 1200px;
+    display: inline-flexbox;
+    align-content: center;
+    justify-content: center;
+    background-image: url("img\ 5.jpg");
+    margin-left: 20px;
+}
+
+.location-title {
+    color: white;
+    align-self: center;
+}
+
+.box-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.boxes {
+    display: inline-block;
+    margin: 45px;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
+
+.boxes p, h3 {
+    text-align: center;
+    line-height: 50px;
+}
+
+
+/* Last Section and Footer */
+.last section {
+    height: 200px;
+}
+
+.contact {
+    text-align: center;
+}
